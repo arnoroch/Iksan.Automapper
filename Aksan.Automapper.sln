@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iksan.Automapper", "Aksan.Automapper\Iksan.Automapper.csproj", "{DAE23773-E06A-4F84-B984-D6BAB34AC5CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iksan.Shared", "Iksan.Shared\Iksan.Shared.csproj", "{5ECE45F6-0D3A-4A96-9CAE-B94AE64FE08E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iksan.TinyMapper", "Iksan.TinyMapper\Iksan.TinyMapper.csproj", "{DA449038-A5BF-41B9-888F-70623FE2F14C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,19 @@ Global
 		{DAE23773-E06A-4F84-B984-D6BAB34AC5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAE23773-E06A-4F84-B984-D6BAB34AC5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAE23773-E06A-4F84-B984-D6BAB34AC5CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ECE45F6-0D3A-4A96-9CAE-B94AE64FE08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ECE45F6-0D3A-4A96-9CAE-B94AE64FE08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ECE45F6-0D3A-4A96-9CAE-B94AE64FE08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ECE45F6-0D3A-4A96-9CAE-B94AE64FE08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA449038-A5BF-41B9-888F-70623FE2F14C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA449038-A5BF-41B9-888F-70623FE2F14C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA449038-A5BF-41B9-888F-70623FE2F14C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA449038-A5BF-41B9-888F-70623FE2F14C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86514635-2B12-4866-A4EB-466EA97AFE03}
 	EndGlobalSection
 EndGlobal

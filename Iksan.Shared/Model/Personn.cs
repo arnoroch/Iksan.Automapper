@@ -1,6 +1,12 @@
-﻿namespace Aksan.Automapper.Model
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Aksan.Automapper.Model
 {
-    public class PersonDto
+    public sealed class Personn
     {
         public string FirstName { get; set; }
         public string Lastname { get; set; }

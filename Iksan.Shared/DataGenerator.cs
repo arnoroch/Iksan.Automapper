@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Aksan.Automapper.Model;
 
-namespace Aksan.Automapper
+namespace Iksan.Shared
 {
     public class DataGenerator
     {

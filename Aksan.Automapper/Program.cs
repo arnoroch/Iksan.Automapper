@@ -1,4 +1,4 @@
-﻿using Aksan.Automapper;
+﻿using Iksan.Shared;
 using Aksan.Automapper.Helpers;
 using Aksan.Automapper.Model;
 using AutoMapper;
